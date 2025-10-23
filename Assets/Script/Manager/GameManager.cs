@@ -15,6 +15,10 @@ public class GameManager : Singleton<GameManager>
 
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name=""></param>
     public void AddSubscriber(IPlayCheckOberver subscriber)
     {
         subscribers.Add(subscriber);
